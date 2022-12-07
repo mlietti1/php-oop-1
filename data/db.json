@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Elf",
+    "year": 2003,
+    "minutes": 97,
+    "poster": "http://beartooththeatre.net/wp-content/uploads/elf-movie-poster.jpg",
+    "director": "Jon Favreau",
+    "genres": ["Comedy", "Fantasy", "Family"]
+  },
+  {
+    "title": "How the Grinch Stole Christmas",
+    "year": 2000,
+    "minutes": 105,
+    "poster": "https://m.media-amazon.com/images/M/MV5BNWNiNTczNzEtMjQyZC00MjFmLTkzMDMtODk4ZGMyZmE0N2E4XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+    "director": "Ron Howard",
+    "genres": ["Comedy", "Fantasy", "Family"]
+  },
+  {
+    "title": "The Holiday",
+    "year": 2006,
+    "minutes": 136,
+    "poster": "https://image.tmdb.org/t/p/original/rMuJYac7OXK3lF8onecnOX2mQ6R.jpg",
+    "director": "Nancy Meyers",
+    "genres": ["Romance", "Comedy"]
+  },
+  {
+    "title": "Love Hard",
+    "year": 2021,
+    "minutes": 105,
+    "poster": "https://m.media-amazon.com/images/M/MV5BODIwNDIxN2YtMWU3ZS00MjU5LWIxMzctNmY1NDg5NDgwYmM0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+    "director": "Hernán Jiménez",
+    "genres": ["Romance", "Comedy"]
+  }
+]
