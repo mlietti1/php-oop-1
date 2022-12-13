@@ -1,9 +1,8 @@
 <?php
-include_once './Model/Movie.php';
+include_once './Models/Movie.php';
 
-include_once './movies.php';
+include_once './Database/db.php';
 
-var_dump($moviesList);
 
 ?>
 
@@ -21,14 +20,22 @@ var_dump($moviesList);
 
 <body>
   <div class="container justify-content-center align-items-center w-100">
-    <div class="row row-cols-sm-2 row-cols-xl-4">
-      <div class="col movie">
-        <div class="content">
-          <img src="" alt="">
-          <h3></h3>
+    <div class="row my-5">
+      <h3 class="mb-5">Movies</h3>
+      <?php foreach ($movies as $movie) : ?>
+        <div class="col-3">
+          <div class="card">
+            <img src="<?php echo $movie->poster ?>" class="card-img-top" alt="<?php echo $movie->title ?>">
+            <div class="card-body">
+              <h5 class="card-title"><?php echo $movie->title ?></h5>
+              <p class="card-text"><?php echo $movie->year ?></p>
+              <p class="card-text">Durata: <?php echo $movie->minutes ?></p>
+
+            </div>
+          </div>
 
         </div>
-      </div>
+      <?php endforeach; ?>
     </div>
   </div>
 </body>
